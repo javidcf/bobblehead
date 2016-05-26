@@ -1,0 +1,38 @@
+{
+    "folders":
+    [
+        {
+            "path": ".",
+            "folder_exclude_patterns": ["bin"]
+        }
+    ],
+    "settings":
+    {
+        "tab_size": 4,
+        "translate_tabs_to_spaces": true
+    },
+    "build_systems":
+    [
+        {
+            "name": "Make",
+            "cmd": [
+                "make"
+            ],
+            "working_dir": "${folder}"
+        },
+        {
+            "name": "Clean",
+            "cmd": [
+                "make", "clean"
+            ],
+            "working_dir": "${folder}"
+        },
+        {
+            "name": "Run",
+            "cmd": [
+                "bin/bobblehead"
+            ],
+            "working_dir": "${folder}"
+        }
+    ]
+}
