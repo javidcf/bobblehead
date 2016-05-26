@@ -1,4 +1,4 @@
-# bobblehead
+# Bobblehead
 A bob-based beat tracker
 
 This is just a small proof of concept of a beat tracking system based on
