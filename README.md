@@ -16,3 +16,7 @@ The program does not require any special controls, but you can press key `d`
 to hide the visual tracking information. Pressing `m` toggles a visual
 metronome that does not work nearly as well as it should; beat phase seems
 to be harder to grasp.
+
+[1]: http://openframeworks.cc
+[2]: https://github.com/kylemcdonald/ofxCv
+[3]: http://opencv.org
